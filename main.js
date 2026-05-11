@@ -89,7 +89,7 @@ const topProduct = products[0];
 //=================================================================================
 //11-MASALA
 products.sort((a, b) => a.price - b.price);
-const cheapestProduct = products[0];
+const push = products[0];
 //=================================================================================
 //12-MASALA
 let totalSum = 0;
@@ -125,8 +125,4 @@ const lengths = text18.split(" ").map((word) => word.length);
 //=================================================================================
 //19-MASALA
 const hasSpace = text18.split("").some((char) => char === " ");
-//=================================================================================
-//20-MASALA
-const obj20 = { a: 2, b: 5, c: 7 };
-const res20 = Object.entries(obj20).map((item) => item.join(""));
 //=================================================================================
